@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Twitch chat enhancer
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      1.0
 // @description  Unmess Twitch chat
 // @author       Alex Henry
 // @match        https://www.twitch.tv/popout/*/chat?popout=
