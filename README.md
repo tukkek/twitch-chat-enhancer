@@ -11,7 +11,7 @@ Note that all likes and dislikes are lost as soon as you close the window or nav
 1. Install a userscript manager extension for your browser, such as [Tampermonkey](http://www.tampermonkey.net/).
 2. Click [here](https://github.com/tukkek/twitch-chat-enhancer/raw/master/Twitch%20chat%20enhancer.user.js) and install the script.
 3. (Alternatively, right-click the link, select "Save as..." and then import the saved file from your extension's control panel).
-4. (Alternatively, you can also simply create a new script and copy-paste the file content's into your brand-new script).
+4. (Alternatively, you can also simply create a new script and copy-paste the file's contents into your brand-new script).
 5. Navigate to a Twitch stream of your choice and under the chat options click "pop out chat".
 6. All done! The enhanced chat should be working on the new chat window, enjoy!
 
