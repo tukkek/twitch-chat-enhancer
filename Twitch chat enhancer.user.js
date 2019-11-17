@@ -29,7 +29,7 @@ let watcher=new MutationObserver((mutationsList,observer)=>{
         message.read=true
         message.arrived=Date.now()
     }
-    if(messages.length>BACKLOG) messages.splice(messages.length-BACKLOG,BACKLOG)
+    if(messages.length>BACKLOG) messages.splice(0,messages.length-BACKLOG)
 })
 let bootstrap=setInterval(()=>{
     let container=document.querySelector('.chat-list__list-container')
