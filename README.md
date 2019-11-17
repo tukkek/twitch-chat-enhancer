@@ -1,6 +1,6 @@
 # Twitch.tv chat enhancer
 
-Let's admit it: for most popular streams Twitch's built-in chat functionality is basically useless for anything other than seeing dozens of emote icons pass by at the speed of light at certain noteworthy moments. Although only Twitch themselves can fix that mess, this userscript aims to help a bit while being relatively easy to use.
+Let's admit it: for most popular streams, Twitch's built-in chat functionality is basically useless for anything other than seeing dozens of emote icons pass by at the speed of light at certain noteworthy moments. Although only Twitch themselves can fix that mess, this userscript aims to help a bit while being relatively easy to use.
 
 The main functionality is that instead of having the chat messages fly through by the dozens, it will instead show you a few messages only at once and give you more time to read them. On top of that, you are able to vote "like" or "dislike" on each message, which will affect the likelihood of more messages from the same user being selected for next chat snapshots.
 
