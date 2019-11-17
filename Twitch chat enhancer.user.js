@@ -5,6 +5,7 @@
 // @description  Unmess Twitch chat
 // @author       Alex Henry
 // @match        https://www.twitch.tv/popout/*/chat?popout=
+// @match        https://www.twitch.tv/*
 // @grant        none
 // ==/UserScript==
 
