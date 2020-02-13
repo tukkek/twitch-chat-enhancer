@@ -5,10 +5,8 @@
 // @description  Unmess Twitch chat
 // @author       Alex Henry
 // @match        https://www.twitch.tv/popout/*/chat?popout=
-// @match        https://www.twitch.tv/*
 // @grant        none
 // ==/UserScript==
-
 const SECOND=1000
 const BACKLOG=1000
 const REFRESH=30*SECOND
@@ -45,6 +43,7 @@ function createbutton(label,action){
     b.innerHTML=label
     b.style['font-size']='large'
     b.style['margin-left']='1em'
+    b.style['font-size']='small'
     b.addEventListener('click',action)
     return b
 }
@@ -65,8 +64,9 @@ function add(){
     messages.sort((a,b)=>getscore(a)-getscore(b)) //TODO ideally would then sort equals by arrival date
     let m=messages.splice(messages.length-1,1)[0]
     console.log(getscore(m))
-    m.appendChild(createbutton('(👍',()=>vote(m,+1)))
-    m.appendChild(createbutton('👎)',()=>vote(m,-1)))
+    m.appendChild(document.createElement('br'))
+    m.appendChild(createbutton('👍',()=>vote(m,+1)))
+    m.appendChild(createbutton('👎',()=>vote(m,-1)))
     m.show=true
     m.style.display=''
 }
