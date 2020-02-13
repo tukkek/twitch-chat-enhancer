@@ -13,6 +13,6 @@ Note that all likes and dislikes are lost as soon as you close the window or nav
 3. (Alternatively, right-click the link, select "Save as..." and then import the saved file from your extension's control panel).
 4. (Alternatively, you can also simply create a new script and copy-paste the file's contents into your brand-new script).
 
-Once installed, simply navigate to a Twitch stream. If the enhanced chat doesn't appear after navigating to a stream, simply reload the channel page and it should work. Alternatively, you can also click on chat options and select "pop out chat" instead.
+Once installed, simply navigate to a Twitch stream, click on the chat options and select "pop out chat".
 
 Note that this userscript may break if Twitch makes significant changes to chat. Feel free to [open a bug report](https://github.com/tukkek/twitch-chat-enhancer/issues/new) if that happens.
